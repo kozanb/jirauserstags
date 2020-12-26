@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jira User - BKO</title>
+    <script src="popup.js"></script>
+    <script src="listener.js"></script>
+    <style>
+        body {
+            width: 30rem;
+            height: auto;
+        }
+
+        h1, h3 {
+            text-align: center;
+        }
+
+        input[type=text] {
+            width: 100%;
+            padding: 10px 15px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 40%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            background-color: #615cf5;
+            color: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button:hover {
+            background-color: #4541a5;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="userTagContainer" class="user_data_container">
+        <h1>Jira User Query - BKO</h1>
+       <h3>
+            Up-to-date OPT List
+       </h3> 
+       <ul>
+           <li>
+            İhsan Sabri <br>
+            [İhsan Sabri Senturk|~accountid:5de3f7c24ae7b80d0d19e67e]<br><br>
+           </li>
+           <li>
+            Buket Yeşilöz <br>
+            [Buket Yesiloz|~accountid:5b119e975c1b4f1bc453bf29]<br><br>
+           </li>
+           <li>
+            Levent Çiftlik <br>
+            [Levent Ciflik|~accountid:5e3facbf4d2a000c91134462]<br><br>
+           </li>
+           <li>
+            Semih Ünal <br>
+            [Semih Unal|~accountid:70121:4fd34c50-9289-47bb-bcea-5b40dbdbc0dc]<br><br>
+           </li>
+           <li>
+            Bahrican Akkoyun<br>
+            [bahrican.akkoyun|~accountid:70121:9beb4ef2-53b1-44b4-b7f0-da4ad20b8cd4]<br><br>
+           </li>
+       </ul>
+
+
+        <div class="button-container">
+            <button id="showModalBtn">Show</button>
+            <button id="reloadModalBtn">Reload</button>
+            <button id="hideModalBtn">Hide</button>
+        </div>
+    </div>
+</body>
+
+</html>
